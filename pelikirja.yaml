@@ -6,5 +6,5 @@
   
   - name: Install iperf3
     shell: sudo apt-get install iperf3 -y
-    become: su
+    become: y
    
