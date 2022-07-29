@@ -1,0 +1,9 @@
+---
+- name: TestPLayBook
+  hosts: all
+
+  tasks:
+  
+  - name: Install iperf3
+    shell: sudo apt-get install iperf3 -y
+   
